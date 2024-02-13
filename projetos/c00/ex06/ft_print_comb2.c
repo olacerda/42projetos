@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: olacerda <olacerda@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: olacerda <olacerda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/30 23:32:09 by olacerda          #+#    #+#             */
-/*   Updated: 2024/02/06 22:01:43 by olacerda         ###   ########.fr       */
+/*   Updated: 2024/02/13 19:52:45 by olacerda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	ft_while(char a, char b, char c, char d)
 		{
 			(a++);
 			(b = '0');
-			(c = '0');
+			(c = a);
 			(d = '0');
 		}
 		if (c == '9' && d == '9')
@@ -67,7 +67,8 @@ void	ft_print_comb2(void)
 	ft_while(a, b, c, d);
 }
 
-//int	main(void)
-//{
-//	ft_print_comb2();
-//}
+int	main(void)
+{
+	ft_print_comb2();
+}
+
